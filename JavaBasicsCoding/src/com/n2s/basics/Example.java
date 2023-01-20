@@ -1,7 +1,9 @@
 package com.n2s.basics;
 
 public class Example {
-
+    public int age=8;
+	
+	
 	public static void main(String[] args) {
     
     System.out.println("welcome"); 
@@ -22,4 +24,10 @@ public class Example {
     }
 
 
+}
+
+class Example2{
+	public int multi(int x,int y) {
+		return(x*y);
+	}
 }
